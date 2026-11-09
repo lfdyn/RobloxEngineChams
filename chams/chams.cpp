@@ -112,8 +112,8 @@ namespace chams
                 && g_memory->Read(g_base + header, signature) && signature == 0x4550
                 && g_memory->Read(g_base + header + 8, timestamp) && timestamp == layout::g_timestamp
                 && g_memory->Read(g_base + header + 0x50, size) && size == layout::g_image_size
-                && g_memory->Read(g_base + layout::g_entity_vtable + 16, draw) && draw == g_base + 0x39AB5F0
-                && g_memory->Read(g_base + layout::g_entity_vtable + 40, submit) && submit == g_base + 0x39ABB40;
+                && g_memory->Read(g_base + layout::g_entity_vtable + 16, draw) && draw == g_base + 0x3A1BAD0
+                && g_memory->Read(g_base + layout::g_entity_vtable + 40, submit) && submit == g_base + 0x3A1C050;
         }
 
         bool Equals(std::uint64_t address, std::uint64_t value) const
