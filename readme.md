@@ -94,7 +94,7 @@ For status, use `GetStatus()` with `Engine::Describe()`. `GetPlayerCount()` and 
 
 ## Offsets and compatibility
 
-Tested client: `version-cec3ad5889b447cf`.
+Tested client: `version-f0ea5da9412f4e35`.
 
 All offsets are in [chams/layout.h](chams/layout.h). Module-relative addresses are added to the Roblox module base. Member offsets are added to the object they belong to.
 
